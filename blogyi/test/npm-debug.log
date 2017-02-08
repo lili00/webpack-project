@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'chai',
+1 verbose cli   'karma-chai',
+1 verbose cli   '—-save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData chai
+8 silly fetchPackageMetaData karma-chai
+9 silly fetchPackageMetaData —-save-dev
+10 silly fetchNamedPackageData chai
+11 silly mapToRegistry name chai
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'chai',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'chai',
+14 silly mapToRegistry   name: 'chai',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/chai
+16 silly fetchNamedPackageData karma-chai
+17 silly mapToRegistry name karma-chai
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'karma-chai',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'karma-chai',
+20 silly mapToRegistry   name: 'karma-chai',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/karma-chai
+22 silly fetchOtherPackageData —-save-dev
+23 silly cache add args [ '—-save-dev', null ]
+24 verbose cache add spec —-save-dev
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: '—-save-dev',
+25 silly cache add   scope: null,
+25 silly cache add   escapedName: null,
+25 silly cache add   name: null,
+25 silly cache add   rawSpec: '—-save-dev',
+25 silly cache add   spec: '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev',
+25 silly cache add   type: 'local' }
+26 error addLocal Could not install /Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev
+27 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev'
+27 silly fetchPackageMetaData     at Error (native)
+27 silly fetchPackageMetaData  error for —-save-dev { Error: ENOENT: no such file or directory, open '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev'
+27 silly fetchPackageMetaData     at Error (native)
+27 silly fetchPackageMetaData   errno: -2,
+27 silly fetchPackageMetaData   code: 'ENOENT',
+27 silly fetchPackageMetaData   syscall: 'open',
+27 silly fetchPackageMetaData   path: '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev' }
+28 verbose request uri https://registry.npmjs.org/karma-chai
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 9:50:20 PM
+31 verbose request id 57e34156bef24f91
+32 verbose etag "D2MR1G92QUNKGYBNZ5C8Z0BOI"
+33 http request GET https://registry.npmjs.org/karma-chai
+34 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+35 verbose request uri https://registry.npmjs.org/chai
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 9:50:20 PM
+38 verbose etag "24PSBLRZNCST9I22GW62FWSKK"
+39 http request GET https://registry.npmjs.org/chai
+40 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+41 info attempt registry request try #2 at 9:50:30 PM
+42 verbose etag "D2MR1G92QUNKGYBNZ5C8Z0BOI"
+43 http request GET https://registry.npmjs.org/karma-chai
+44 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+45 info attempt registry request try #2 at 9:50:30 PM
+46 verbose etag "24PSBLRZNCST9I22GW62FWSKK"
+47 http request GET https://registry.npmjs.org/chai
+48 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+49 info attempt registry request try #3 at 9:51:30 PM
+50 verbose etag "D2MR1G92QUNKGYBNZ5C8Z0BOI"
+51 http request GET https://registry.npmjs.org/karma-chai
+52 info attempt registry request try #3 at 9:51:30 PM
+53 verbose etag "24PSBLRZNCST9I22GW62FWSKK"
+54 http request GET https://registry.npmjs.org/chai
+55 silly get cb [ 304, undefined ]
+56 verbose etag https://registry.npmjs.org/karma-chai from cache
+57 verbose get saving karma-chai to /Users/yili/.npm/registry.npmjs.org/karma-chai/.cache.json
+58 verbose correctMkdir /Users/yili/.npm correctMkdir not in flight; initializing
+59 silly get cb [ 304, undefined ]
+60 verbose etag https://registry.npmjs.org/chai from cache
+61 verbose get saving chai to /Users/yili/.npm/registry.npmjs.org/chai/.cache.json
+62 verbose correctMkdir /Users/yili/.npm correctMkdir already in flight; waiting
+63 silly rollbackFailedOptional Starting
+64 silly rollbackFailedOptional Finishing
+65 silly runTopLevelLifecycles Finishing
+66 silly install printInstalled
+67 verbose stack Error: ENOENT: no such file or directory, open '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev'
+67 verbose stack     at Error (native)
+68 verbose cwd /Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test
+69 error Darwin 13.4.0
+70 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "chai" "karma-chai" "—-save-dev"
+71 error node v6.9.5
+72 error npm  v3.10.10
+73 error path /Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev
+74 error code ENOENT
+75 error errno -2
+76 error syscall open
+77 error enoent ENOENT: no such file or directory, open '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev'
+78 error enoent ENOENT: no such file or directory, open '/Users/yili/Documents/sunday classes/珠峰培训/react课程/4_webpack/blogyi/test/—-save-dev'
+78 error enoent This is most likely not a problem with npm itself
+78 error enoent and is related to npm not being able to find a file.
+79 verbose exit [ -2, true ]
